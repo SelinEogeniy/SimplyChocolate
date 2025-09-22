@@ -222,3 +222,80 @@ body {
   color: #ffffffb3;
 }
 /* ================= /BENEFITS SECTION================== */
+
+/* ================= INGRIDIENTS SECTION  ================== */
+
+/* ================= /INGRIDIENTS SECTION ================== */
+
+.ingridients-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.ingridients-title {
+  width: 411px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 28px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+.ingridients-title-word {
+  color: var(--accent-text-color);
+}
+
+.ingridients-descr {
+  width: 486px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 54px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+.ingridients-list {
+  display: flex;
+  gap: 24px;
+}
+
+.ingridients-item {
+  padding: 28px 32px;
+  border-radius: 15px;
+}
+
+.ingridients-item-desr {
+  margin-top: 36px;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.ingridients-item:nth-child(2n) {
+  border: 1px solid var(--accent-text-color);
+  color: var(--primary-text-color);
+}
+
+.ingridients-item:nth-child(2n + 1) {
+  color: #fff;
+}
+
+.ingridients-item:nth-child(1) {
+  background-color: var(--accent-text-color);
+}
+
+.ingridients-item:nth-child(3) {
+  background-color: #1e1823;
+}
