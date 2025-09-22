@@ -71,6 +71,10 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+.accent-word {
+  color: var(--accent-text-color);
+}
 /* ================= HEADER STYLES ================== */
 .site-menu {
   display: flex;
@@ -225,8 +229,6 @@ body {
 
 /* ================= INGRIDIENTS SECTION  ================== */
 
-/* ================= /INGRIDIENTS SECTION ================== */
-
 .ingridients-section {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -244,10 +246,6 @@ body {
   text-transform: uppercase;
   text-align: center;
   color: var(--primary-text-color);
-}
-
-.ingridients-title-word {
-  color: var(--accent-text-color);
 }
 
 .ingridients-descr {
@@ -299,3 +297,50 @@ body {
 .ingridients-item:nth-child(3) {
   background-color: #1e1823;
 }
+
+/* ================= /INGRIDIENTS SECTION ================== */
+
+/* ================= HOW-ITS-MADE SECTION ================== */
+
+.how-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.how-title {
+  margin-bottom: 50px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+.how-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.how-wrapper-descr {
+  padding: 32px;
+}
+
+.how-wrapper-descr-title {
+  margin-bottom: 28px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.3;
+  color: var(--primary-text-color);
+}
+
+.how-wrapper-descr-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  /* Временно */
+  list-style-type: disc;
+  margin-left: 14px;
+}
+/* ================= /HOW-ITS-MADE SECTION ================== */
