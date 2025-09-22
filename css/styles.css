@@ -205,7 +205,7 @@ body {
 }
 
 .benefits-item {
-  width: 308px;
+  width: calc((100% - 2 * 70px) / 3);
 }
 
 .benefits-item-title {
