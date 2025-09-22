@@ -49,6 +49,20 @@ address {
 body {
   font-family: "Montserrat", sans-serif;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 /* ================= /COMMON STYLES ================== */
 .container {
   max-width: 1168px;
@@ -175,5 +189,36 @@ body {
 /* ================= /HERO SECTION STYLES================== */
 
 /* ================= BENEFITS SECTION================== */
+.benefits-section {
+  background: #1e1823;
+  margin-bottom: 50px;
+}
 
+.benefits-container {
+  padding: 50px 34px 50px;
+}
+.benefits-list {
+  display: flex;
+  gap: 70px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.benefits-item {
+  width: 308px;
+}
+
+.benefits-item-title {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 18px;
+}
+
+.benefits-item-descr {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: #ffffffb3;
+}
 /* ================= /BENEFITS SECTION================== */
