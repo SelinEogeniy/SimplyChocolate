@@ -348,6 +348,32 @@ body {
   flex-direction: column;
   gap: 24px;
 }
+
+.how-wrapper-descr-item-info {
+  padding-left: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: var(--primary-text-color);
+}
+
+.how-wrapper-descr-item {
+  position: relative;
+}
+
+.how-wrapper-descr-item-info::before {
+  position: absolute;
+  display: inline-block;
+  top: 5px;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  background-color: #4c4c4c;
+  border-radius: 50%;
+  border: 1px solid #eceded;
+  content: "";
+}
 /* ================= /HOW-ITS-MADE SECTION ================== */
 
 /* ================= REVIEWS SECTION ================== */
