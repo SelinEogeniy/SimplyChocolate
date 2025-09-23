@@ -379,6 +379,7 @@ body {
 /* ================= REVIEWS SECTION ================== */
 .review-section {
   padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 .review-title {
@@ -452,4 +453,13 @@ body {
   background-color: #fd9222;
   color: #ffffff;
 }
+
 /* ================= /REVIEWS SECTION ================== */
+
+/* ================= FOOTER SECTION ================== */
+
+.site-footer {
+  background-color: #1e1823;
+}
+
+/* ================= /FOOTER SECTION ================== */
