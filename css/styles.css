@@ -122,11 +122,19 @@ body {
   border-radius: 30px;
   background-color: #1e1823;
   color: #fff;
+  background-image: linear-gradient(
+      rgba(30, 24, 35, 0.4),
+      rgba(30, 24, 35, 0.4)
+    ),
+    url(../images/Hero/bg-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-container {
   padding: 381px 56px 40px;
 }
+
 .hero-title {
   width: 484px;
   margin-bottom: 32px;
@@ -339,9 +347,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  /* Временно */
-  list-style-type: disc;
-  margin-left: 14px;
 }
 /* ================= /HOW-ITS-MADE SECTION ================== */
 
