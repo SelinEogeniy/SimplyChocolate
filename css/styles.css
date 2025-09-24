@@ -503,4 +503,30 @@ body {
   letter-spacing: -0.02em;
 }
 
+.contact-us-adress-link:hover,
+.contact-us-adress-link:focus {
+  color: var(--accent-text-color);
+}
+
+.footer-nav {
+  margin-top: 24px;
+}
+
+.footer-nav-list {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.footer-nav-link:hover,
+.footer-nav-link:focus {
+  color: var(--accent-text-color);
+}
 /* ================= /FOOTER SECTION ================== */
