@@ -459,7 +459,48 @@ body {
 /* ================= FOOTER SECTION ================== */
 
 .site-footer {
+  padding-top: 50px;
+  padding-bottom: 86px;
   background-color: #1e1823;
+}
+
+.footer-upper-wrapper {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 50px;
+}
+
+.footer-title {
+  width: 300px;
+
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.contact-us {
+  color: #fff;
+}
+
+.contact-us-title {
+  margin-bottom: 14px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+.contact-us-item:not(:last-child) {
+  margin-bottom: 4px;
+}
+
+.contact-us-adress-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
 }
 
 /* ================= /FOOTER SECTION ================== */
