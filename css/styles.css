@@ -187,6 +187,7 @@ body {
   padding-left: 20px;
   margin-right: 14px;
   background-color: var(--accent-text-color);
+  color: #ffffff;
   font-weight: 600;
   font-size: 14px;
   transition: color var(--primary-transition),
@@ -706,8 +707,26 @@ body {
   color: #ffffff;
 }
 
-.footer-form-input:focus {
+.footer-form-input:focus,
+.footer-form-input:hover {
   border: 1.5px solid #fd9222;
 }
 
+.footer-form-button {
+  border-radius: 100px;
+  width: 137px;
+  height: 52px;
+  background: #fd9222;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  transition: color var(--primary-transition),
+    background-color var(--primary-transition);
+}
+
+.footer-form-button:hover,
+.footer-form-button:focus {
+  color: var(--accent-text-color);
+  background-color: #fcf1e0;
+}
 /* ================= /FOOTER SECTION ================== */
