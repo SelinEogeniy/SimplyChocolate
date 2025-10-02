@@ -666,10 +666,6 @@ body {
   color: var(--accent-text-color);
 }
 
-.footer-nav {
-  margin-top: 24px;
-}
-
 .footer-nav-list {
   display: flex;
   gap: 24px;
@@ -689,4 +685,29 @@ body {
 .footer-nav-link:focus {
   color: var(--accent-text-color);
 }
+
+.footer-down-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.footer-form-input {
+  border: 1.5px solid rgba(255, 255, 255, 0.15);
+  border-radius: 30px;
+  padding: 13px 24px;
+  width: 313px;
+  height: 52px;
+  margin-right: 8px;
+  background-color: transparent;
+  outline: transparent;
+  transition: border var(--primary-transition);
+  color: #ffffff;
+}
+
+.footer-form-input:focus {
+  border: 1.5px solid #fd9222;
+}
+
 /* ================= /FOOTER SECTION ================== */
