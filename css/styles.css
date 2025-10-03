@@ -772,6 +772,10 @@ body {
 
 .modal-window-form-input {
   width: 100%;
-  margin-bottom: 20px;
+  height: 68px;
+  margin-bottom: 18px;
+  border: 1px solid rgba(17, 17, 17, 0.2);
+  border-radius: 13px;
+  padding: 22px 24px;
 }
 /* ================= /MODAL WINDOW SECTION ================== */
