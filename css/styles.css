@@ -750,7 +750,6 @@ body {
   transform: translate(-50%, -50%);
   border-radius: 15px;
   width: 517px;
-  height: 500px;
   background: #fafafa;
 }
 
@@ -771,4 +770,8 @@ body {
   color: #111;
 }
 
+.modal-window-form-input {
+  width: 100%;
+  margin-bottom: 20px;
+}
 /* ================= /MODAL WINDOW SECTION ================== */
