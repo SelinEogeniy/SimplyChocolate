@@ -818,4 +818,15 @@ input {
 .modal-window-form-text-area:focus {
   border: 1.5px solid var(--accent-text-color);
 }
+
+.modal-window-checkbox-label {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: rgba(64, 64, 64, 0.6);
+}
+
+.accent-word-checkbox {
+  text-decoration: underline;
+}
 /* ================= /MODAL WINDOW SECTION ================== */
