@@ -829,4 +829,8 @@ input {
 .accent-word-checkbox {
   text-decoration: underline;
 }
+
+.modal-window-submit-button {
+  display: block;
+}
 /* ================= /MODAL WINDOW SECTION ================== */
