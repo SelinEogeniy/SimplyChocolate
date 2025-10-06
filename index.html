@@ -411,6 +411,7 @@
         </div>
       </div>
     </footer>
+    <!-- BACKDROP SECTION -->
     <div class="backdrop">
       <div class="modal-window">
         <button class="modal-close-button" type="button">
@@ -423,43 +424,80 @@
         </p>
         <form class="modal-window-form">
           <div class="footer-input-wrapper">
-            <label class="modal-window-form-label">
-              Name
-              <input class="modal-window-form-input" type="text" />
-            </label>
+            <label class="modal-window-form-label" for="input-name-id"
+              >Name</label
+            >
+            <div class="footer-icon-wrapper">
+              <input
+                class="modal-window-form-input"
+                id="input-name-id"
+                type="text"
+              />
+              <svg>
+                <use></use>
+              </svg>
+            </div>
           </div>
 
           <div class="footer-input-wrapper">
-            <label class="modal-window-form-label"
-              >Email
-              <input class="modal-window-form-input" type="text" />
-            </label>
+            <label class="modal-window-form-label" for="input-email-id"
+              >Email</label
+            >
+            <div class="footer-icon-wrapper">
+              <input
+                class="modal-window-form-input"
+                id="input-email-id"
+                type="text"
+              />
+              <svg>
+                <use></use>
+              </svg>
+            </div>
           </div>
 
           <div class="footer-input-wrapper">
-            <label class="modal-window-form-label"
-              >Phone number
-              <input class="modal-window-form-input" type="text" />
-            </label>
+            <label class="modal-window-form-label" for="input-phone-id"
+              >Phone number</label
+            >
+            <div class="footer-icon-wrapper">
+              <input
+                class="modal-window-form-input"
+                id="input-phone-id"
+                type="text"
+              />
+              <svg>
+                <use></use>
+              </svg>
+            </div>
           </div>
 
           <div class="footer-input-wrapper">
-            <label class="modal-window-form-label">
-              Comment
-              <textarea
-                class="modal-window-form-text-area"
-                name=""
-                id=""
-                placeholder="Enter text"
-              ></textarea>
-            </label>
+            <label class="modal-window-form-label" for="modal-textarea-id"
+              >Comment</label
+            >
+            <textarea
+              class="modal-window-form-text-area"
+              name="comment"
+              id="modal-textarea-id"
+              placeholder="Enter text"
+            ></textarea>
           </div>
 
-          <label class="modal-window-checkbox-label">
-            <input type="checkbox" />
-            I accept the terms and conditions of the
-            <span class="accent-word accent-word-checkbox">Privacy Policy</span>
-          </label>
+          <div class="footer-checkbox-wrapper">
+            <input
+              class="footer-policy-checkbox"
+              type="checkbox"
+              name=""
+              id="policy-checkbox-id"
+            />
+            <label class="policy-checkbox-label" for="policy-checkbox-id">
+              <svg>
+                <use></use>
+              </svg>
+              I accept the terms and conditions of the
+              <a href="">Privacy Policy</a>
+            </label>
+          </div>
 
           <button class="buy-button modal-window-submit-button" type="submit">
             Send
