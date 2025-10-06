@@ -770,6 +770,13 @@ input {
   top: 24px;
   right: 24px;
   stroke: #111111;
+  line-height: 0;
+  transition: stroke var(--primary-transition);
+}
+
+.modal-close-button:hover,
+.modal-close-button:focus {
+  stroke: var(--accent-text-color);
 }
 
 .modal-window-title {
@@ -777,7 +784,7 @@ input {
   width: 298px;
   font-weight: 600;
   font-size: 24px;
-  line-height: 1.17;
+  line-height: 1.2;
   letter-spacing: -0.03em;
   text-transform: uppercase;
   color: #111;
